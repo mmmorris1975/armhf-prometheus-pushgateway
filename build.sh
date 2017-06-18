@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-ver=${VERSION:="0.3.1"}
+ver=${VERSION:="0.4.0"}
 exp_name=pushgateway
 
 NAME=$(basename $(dirname $PWD/Dockerfile))
